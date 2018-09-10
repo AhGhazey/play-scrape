@@ -7,6 +7,11 @@ I use this personally for text mining projects that I'll publish later.
 ```
 python play_scrape.py --pages <pages> --id <app_id> --output <outfile.json>
 ```
+
+### Usage:
+```
+python GooglePlay_english_version.py --pages <pages> --id <app_id> --output <outfile.json>
+```
 Where:
 + --pages are the number of pages to scrape, usually a page contains 40 reviews
 + --id is the app id, ex com.facebook.katana
